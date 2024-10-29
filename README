@@ -1,0 +1,66 @@
+Largest Contiguous Sum
+
+
+A subarray is a part of an array including one or more contiguous/adjacent elements.
+
+Example
+Array: [1, 2, 3, 4, 5]
+Subarrays:
+[1]
+[2]
+[3]
+[4]
+[5]
+[1, 2]
+[2, 3]
+[3, 4]
+[4, 5]
+[1, 2, 3]
+[2, 3, 4]
+[3, 4, 5]
+[1, 2, 3, 4]
+[2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+If we find the sum of the elements of any subarray then that sum will be known as a contiguous sum.
+
+Example
+[1] => 1
+[2] => 2
+[3] => 3
+[4] => 4
+[5] => 5
+[1, 2] => 3
+[2, 3] => 5
+[3, 4] => 7
+[4, 5] => 9
+[1, 2, 3] => 6
+[2, 3, 4] => 9
+[3, 4, 5] => 12
+[1, 2, 3, 4] => 10
+[2, 3, 4, 5] => 14
+[1, 2, 3, 4, 5] => 15
+You are given an array of numbers (could be -ve as well). You need to find the largest contiguous sum from the array.
+
+In the above example, the largest contiguous sum would be 15.
+
+Example
+Array: [4 -6 2 5]
+Answer: 7
+Testing
+Input Format
+The first line contains 'T' denoting the no. of test cases.
+
+This is followed by T test cases each containing 2 lines. The first line of each test case contains a number 'n' denoting the number of elements. The next line contains n space-separated numbers denoting the array elements.
+
+Output Format
+Next T lines each contain a number 'sum’ denoting the largest contiguous sum of the array.
+
+Sample Input
+2
+5
+1 2 3 4 5
+4
+4 -6 2 5
+Expected Output
+15
+7
